@@ -6,6 +6,7 @@ This repository contains my configuration files for several tools.
 - `hypr/` - Configuration files for Hyprland and Hyprpaper
 - `kitty/` - Configuration files for Kitty terminal emulator
 - `nvim/` - Configuration files for Neovim
+- `vis/` - Configuration files for Vis terminal editor
 - `yazi/` - Configuration files for Yazi
 - `zsh/` - Configuration files for Zsh
 
@@ -29,6 +30,7 @@ To install these dotfiles on your system follow these steps:
     stow hypr
     stow kitty
     stow nvim
+    stow vis
     stow yazi
     stow zsh
 ```

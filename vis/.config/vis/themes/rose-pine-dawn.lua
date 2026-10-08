@@ -41,6 +41,7 @@ lexers.STYLE_VARIABLE = 'fore:'..colors.text
 lexers.STYLE_WHITESPACE = 'fore:'..colors.muted
 lexers.STYLE_EMBEDDED = 'fore:'..colors.foam
 lexers.STYLE_IDENTIFIER = 'fore:'..colors.text
+lexers.CODE = 'fore:'..colors.foam..',back:'..colors.surface
 
 lexers.STYLE_LINENUMBER = 'fore:'..colors.pine..',back:'..colors.base
 lexers.STYLE_LINENUMBER_CURSOR = 'fore:'..colors.foam..',back:'..colors.base
