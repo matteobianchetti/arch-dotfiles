@@ -46,4 +46,5 @@ source "$ZDOTDIR/bindings.zsh"
 source "$ZDOTDIR/plugins.zsh"
 source "$ZDOTDIR/prompt.zsh"
 
-fastfetch
+export EDITOR="vis"
+export VISUAL="vis"

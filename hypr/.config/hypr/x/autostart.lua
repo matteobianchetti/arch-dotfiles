@@ -1,5 +1,6 @@
 hl.on("hyprland.start", function()
 	hl.exec_cmd("nm-applet")
-	hl.exec_cmd("waybar & hyprpaper")
+	hl.exec_cmd("uwsm app -- hyprpaper")
+	hl.exec_cmd("uwsm app -- waybar")
 	hl.exec_cmd("hyprctl setcursor Bibata-Modern-Ice 24")
 end)

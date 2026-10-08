@@ -13,4 +13,3 @@ export PATH="$HOME/.local/bin:$PATH"
 export MANPAGER="bat -l man -p"
 
 export STARSHIP_CONFIG="$ZDOTDIR/starship.toml"
-. "$HOME/.cargo/env"

@@ -1,5 +1,5 @@
 [flavor]
-dark = "rose-pine"
+dark = "rose-pine-moon"
 [icon]
 files = [
 	{ name = ".babelrc", text = "", fg = "#f6c177" },
