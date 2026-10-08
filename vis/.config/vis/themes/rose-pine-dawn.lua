@@ -1,21 +1,21 @@
 local lexers = vis.lexers
 
 local colors = {
-  ['base'] = '#191724', -- background
-  ['surface'] = '#1f1d2e',
-  ['overlay'] = '#26233a', -- cursor line and selection
-  ['muted'] = '#6e6a86', -- comments
-  ['subtle'] = '#908caa', -- operators
-  ['text'] = '#e0def4', -- foreground
-  ['love'] = '#eb6f92', -- errors
-  ['gold'] = '#f6c177', -- strings and numbers
-  ['rose'] = '#ebbcba', -- functions
-  ['pine'] = '#31748f', -- definitions
-  ['foam'] = '#9ccfd8', -- types and labels
-  ['iris'] = '#c4a7e7', -- status bar
-  ['hi_low'] = '#21202e',
-  ['hi_med'] = '#403d52',
-  ['hi_high'] = '#524f67',
+  ['base'] = '#faf4ed', -- background
+  ['surface'] = '#fffaf3',
+  ['overlay'] = '#f2e9e1', -- cursor line and selection
+  ['muted'] = '#9893a5', -- comments
+  ['subtle'] = '#797593', -- operators
+  ['text'] = '#464261', -- foreground
+  ['love'] = '#b4637a', -- errors
+  ['gold'] = '#ea9d34', -- strings and numbers
+  ['rose'] = '#d7827e', -- functions
+  ['pine'] = '#286983', -- definitions
+  ['foam'] = '#56949f', -- types and labels
+  ['iris'] = '#907aa9', -- status bar
+  ['hi_low'] = '#f4ede8',
+  ['hi_med'] = '#dfdad9',
+  ['hi_high'] = '#cecacd',
 }
 
 lexers.colors = colors
